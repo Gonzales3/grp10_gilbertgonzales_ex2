@@ -297,7 +297,7 @@ $team_members = [
                 <div class="column">
                     <div class="card">
                         <div class="profile-image-container">
-                            <img src="images/' . htmlspecialchars($member["image"]) . '" alt="' . htmlspecialchars($member["name"]) . '" class="profile-image">
+                            <img src="/images/' . htmlspecialchars($member["image"]) . '" alt="' . htmlspecialchars($member["name"]) . '" class="profile-image">
                         </div>
                         <div class="container">
                             <h2>' . htmlspecialchars($member["name"]) . '</h2>
